@@ -1,0 +1,39 @@
+/* AppResponsive.css */
+
+/* Adjust the font size for smaller screens */
+@media (max-width: 768px) {
+  .name {
+    font-size: 50px;
+  }
+
+  .profession {
+    font-size: 25px;
+    top: 110px;
+    left: 70px;
+  }
+
+  /* You can continue to adjust other styles as needed */
+}
+
+/* Adjust the layout for smaller screens */
+@media (max-width: 768px) {
+  .body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftBody,
+  .rightBody {
+    position: relative;
+    width: 100%;
+    left: 0;
+  }
+
+  .vertical-line {
+    display: none; /* Hide the vertical line on smaller screens */
+  }
+
+  /* You can continue to adjust other layout styles as needed */
+}
+
+/* Add more media queries and styles as needed for different screen sizes */
